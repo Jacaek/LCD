@@ -3,6 +3,11 @@
 #include <QMainWindow>
 #include <QTimer>
 #include “sensor.h”
+// TARGET = Test
+// target.files = Test
+// target.path = /home/root
+// INSTALLS += target
+// QWS_MOUSE_PROTO = Linuxinput:/dev/input/event0
 namespace Ui {
 class MainWindow;
 }
