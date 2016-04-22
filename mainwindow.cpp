@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent) :
 }
 void MainWindow::newSensorDataSlot()
 {
-   int fd = htu->i2c_Open(I2CBus);
+   int fd = htu->open(I2CBus);
    float myTemp, myHum;
    htu->htu21df_getValue(fd, &myTemp, READ_TEMPERATURE);
    htu->htu21df_getValue(fd, &myHum, READ_HUMIDITY);
