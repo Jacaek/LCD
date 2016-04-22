@@ -1,12 +1,12 @@
 #ifndef SENSOR_H
 #define SENSOR_H
 
-#define I2C_ADDRESS    		0x40
-#define READ_TEMPERATURE    0xF3
-#define READ_HUMIDITY    	0xF5
-#define WRITE_REGISTER   	0xE6
-#define READ_REGISTER    	0xE7
-#define RESET      			0xFE
+#define I2C_ADDRESS    		    0x40
+#define READ_TEMPERATURE        0xF3
+#define READ_HUMIDITY    	    0xF5
+#define WRITE_REGISTER   	    0xE6
+#define READ_REGISTER    	    0xE7
+#define RESET      			    0xFE
 
 static const int resetDelay = 15;
 static const int minDelay   = 10;
