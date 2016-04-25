@@ -1,2 +1,1 @@
-# LCD
-7" display
+Temperature and humidity readings on 7" LCD.
